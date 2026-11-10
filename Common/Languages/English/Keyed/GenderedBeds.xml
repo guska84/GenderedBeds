@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <GenderedBeds_SettingsCategory>Gendered Beds</GenderedBeds_SettingsCategory>
+
+  <GenderedBeds_Restriction_Any>Any gender</GenderedBeds_Restriction_Any>
+  <GenderedBeds_Restriction_Male>Male only</GenderedBeds_Restriction_Male>
+  <GenderedBeds_Restriction_Female>Female only</GenderedBeds_Restriction_Female>
+
+  <GenderedBeds_GizmoLabel>Gender: {0}</GenderedBeds_GizmoLabel>
+  <GenderedBeds_GizmoDesc>Choose which genders can claim, be assigned to, or be carried to this bed.\n\nThe choice applies to every selected bed.</GenderedBeds_GizmoDesc>
+
+  <GenderedBeds_InspectRestriction>Bed restriction: {0}</GenderedBeds_InspectRestriction>
+  <GenderedBeds_InspectMedicalIgnored>(not applied while medical)</GenderedBeds_InspectMedicalIgnored>
+  <GenderedBeds_CannotAssign>Bed restriction: {0}</GenderedBeds_CannotAssign>
+  <GenderedBeds_OwnersUnassigned>Unassigned from {0} because of its gender restriction: {1}</GenderedBeds_OwnersUnassigned>
+
+  <GenderedBeds_Setting_AllowGenderless>Genderless pawns may use gendered beds</GenderedBeds_Setting_AllowGenderless>
+  <GenderedBeds_Setting_AllowGenderless_Desc>If on, pawns with no gender (some modded races, androids and so on) can use beds restricted to either gender. If off, they can only use beds set to "Any gender".</GenderedBeds_Setting_AllowGenderless_Desc>
+  <GenderedBeds_Setting_MedicalRespects>Medical beds respect the restriction</GenderedBeds_Setting_MedicalRespects>
+  <GenderedBeds_Setting_MedicalRespects_Desc>If off, a bed's gender restriction is ignored while the bed is set to medical, so patients are never left untreated. If on, medical beds only take pawns of the allowed gender.</GenderedBeds_Setting_MedicalRespects_Desc>
+  <GenderedBeds_Setting_ShowOverlay>Show gender icon on restricted beds</GenderedBeds_Setting_ShowOverlay>
+  <GenderedBeds_Setting_ShowOverlay_Desc>Draw a small male or female icon on restricted beds when zoomed in.</GenderedBeds_Setting_ShowOverlay_Desc>
+</LanguageData>

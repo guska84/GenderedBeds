@@ -133,10 +133,10 @@ README.md
 
 ---
 
-## 7. Questions for review
-1. **Is a Harmony dependency OK?** I recommend yes. A Harmony-free version could only restrict the assign dialog (by subclassing `CompAssignableToPawn_Bed` through XML). It **can't stop pawns from auto-claiming beds**, which defeats the point. Harmony is the de-facto standard dependency and is on nearly every player's mod list.
-2. **Genderless pawns** (`Gender.None`): allow them in gendered beds by default, or block them?
-3. **Medical beds:** should they ignore the restriction by default?
-4. **Per-bed settings with multi-select**, or do you also want a "set the whole room" button?
-5. **Commit built DLLs** to the repo so it can be dropped straight into `Mods/`, or build them in CI and attach them to releases only?
-6. Any preference for the mod's **name, packageId** (for example `yourname.genderedbeds`) and **author**?
+## 7. Decisions (agreed in review)
+1. Harmony is an accepted dependency.
+2. Genderless pawns: a checkbox in Mod Options, **allowed by default**. A later optional RJW / Sized Apparel integration that checks genital type is out of scope for v1.
+3. Medical beds ignore the restriction by default, with a checkbox to make them respect it.
+4. Per-bed setting with multi-select. There's no room-wide button, so you can, for example, set different sides of one room.
+5. Built DLLs are committed so the repo can be dropped straight into `Mods/`.
+6. Name: **Gendered Beds**. Author: **guska**. packageId: **`guska.GenderedBeds`**.
